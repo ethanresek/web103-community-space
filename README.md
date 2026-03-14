@@ -20,7 +20,7 @@ The following **required** functionality is completed:
 - [x] **Website includes a visual interface that allows users to select a location they would like to view.**
   - [x] *Note: A non-visual list of links to different locations is insufficient.* 
 - [x] **Each location has a detail page with its own unique URL.**
-- [ ] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
+- [x] **Clicking on a location navigates to its corresponding detail page and displays list of all events from the `events` table associated with that location.**
 
 The following **optional** features are implemented:
 
