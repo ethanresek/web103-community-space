@@ -1,39 +1,102 @@
-.location-events {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: no-wrap;
+.dungeon-section {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  align-items: stretch;
 }
 
-.location-events header {
-    background-color: var(--main-color);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    column-gap: 10px;
+.dungeon-section-right,
+.dungeon-section-left {
+  flex: 1;
 }
 
-.location-image img {
-    width: 300px;
-    height: auto;
-    border: 1px solid white;
-    margin-left: 20px;
+.dungeon-section-right h1 {
+  margin-top: 0;
+  color: var(--color-primary);
 }
 
-.location-events header p {
-    color: white;
-    font-size: 0.8em;
-    margin-bottom: 0px;
+.dungeon-section-right img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--color-primary);
 }
 
-.location-events main {
-    text-align: center;
-    padding: 30px;
-    margin: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.dungeon-section-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  gap: 0.75rem;
 }
 
-.location-events main i {
-    margin-right: 10px;
+.dungeon-section-left li {
+  background-color: var(--color-surface);
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border-left: 3px solid var(--color-primary);
+  color: var(--color-text);
+}
+
+.dungeon-section-left li::before {
+  content: none;
+}
+
+.dungeon-section-left ul li::marker,
+.adventure-card ul li::marker {
+  content: none;
+}
+
+.adventures-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.adventure-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-primary);
+  border-radius: 8px;
+  padding: 1.25rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.adventure-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(124, 58, 237, 0.3);
+}
+
+.adventure-card h3 {
+  margin: 0 0 0.25rem;
+  color: var(--color-primary);
+}
+
+.adventure-card h4 {
+  margin: 0 0 0.75rem;
+  color: var(--color-muted);
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.adventure-card p {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+}
+
+.adventure-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.adventure-card li::before {
+  content: none;
 }
