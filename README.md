@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjY0aDdteGY1emttaG40eGwwaDdnbGpvbnNjZzJ2ZWFyYThvNnZwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SecJDDyKmC5izsPjDD/giphy.gif" width="300" alt="description">
+<img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjY0aDdteGY1emttaG40eGwwaDdnbGpvbnNjZzJ2ZWFyYThvNnZwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SecJDDyKmC5izsPjDD/giphy.gif" width="800" alt="description">
 
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
