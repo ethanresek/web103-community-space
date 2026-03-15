@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-![GIF walkthrough of website features](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTllNjlhOW1rYTlqenpiNmM5Z3BkZDMzd2Y5bmhqa3hlNnk5eHp5aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Fp6LwMWVmyZ5Y8QhhR/giphy.gif)
+![GIF walkthrough of website features](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjY0aDdteGY1emttaG40eGwwaDdnbGpvbnNjZzJ2ZWFyYThvNnZwZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SecJDDyKmC5izsPjDD/giphy.gif)
 
 GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
 
@@ -45,7 +45,7 @@ Describe any challenges encountered while building the app or any additional con
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2026] [Ethan Resek]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
